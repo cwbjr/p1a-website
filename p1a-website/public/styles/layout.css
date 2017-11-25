@@ -4,8 +4,6 @@
       width: 100%;
       margin: 0 auto;
       display: grid;
-      /*grid-column-gap: 20px;*/
-      /*grid-row-gap: 20px;*/
       gird-template-columns: repeat(3, 1fr);
       grid-template-rows: 1fr 50px auto 100px;
       grid-template-areas:

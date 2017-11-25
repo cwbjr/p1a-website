@@ -36,8 +36,8 @@ ul {
 
 .active-page {
     font-size: 1.5rem;
-    border-top: 4px solid rgb(68, 131, 68);
-    border-bottom: 4px solid rgb(68, 131, 68);
+    border-top: 4px solid #688CB5;
+    border-bottom: 4px solid #688CB5;
 }
 
 .page-header {
@@ -48,7 +48,7 @@ ul {
 }
 
 .page-nav {
-    background-color: rgba(243, 156, 18, 0.65);
+    background-color: #D19E67;
 }
 
 .page-content {
@@ -56,7 +56,7 @@ ul {
 }
 
 .page-footer {
-    background-color: rgba(243, 156, 18, 0.65);
+    background-color: #D19E67;
 }
 
 .page-nav, .page-content {
