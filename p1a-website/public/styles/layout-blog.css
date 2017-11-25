@@ -1,0 +1,43 @@
+@supports (display: grid) {
+
+    .page {
+      width: 100%;
+      margin: 0 auto;
+      display: grid;
+      grid-column-gap: 15px;
+      grid-row-gap: 15px;
+      gird-template-columns: 2fr 1fr;
+      grid-template-rows: 1fr auto;
+      grid-template-areas:
+        "header header"
+        "main nav";
+    }
+
+    .page-header {
+        grid-area: header;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .page-nav {
+        grid-area: nav;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-posts {
+        order: 1;
+    }
+
+    .footer-social-icons {
+        order: 2;
+    }
+
+    .small-copy {
+        order: 3;
+        align-self: center;
+    }
+
+    .page-content {
+        grid-area: main;
+    }
